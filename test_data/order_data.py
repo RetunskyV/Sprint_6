@@ -1,8 +1,7 @@
 class OrderTestData:
-
-    METRO_INDEX = 2
-    RENTAL_PERIOD_INDEX = 3
-    COLOR = "black"
+    METRO_STATION = "Бульвар Рокоссовского"
+    RENTAL_PERIOD = "трое суток"
+    COLOR_TEXT = "чёрный жемчуг"
 
     USER_DATA = {
         "name": "Иван",
@@ -11,5 +10,3 @@ class OrderTestData:
         "phone": "89991112233",
         "comment": "Позвонить за час"
     }
-
-    BUTTON_TYPES = ["top", "bottom"]
